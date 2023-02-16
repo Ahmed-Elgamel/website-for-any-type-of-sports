@@ -1,0 +1,1073 @@
+
+/*
+
+exec clearAllTables
+exec dropAllProceduresFunctionsViews
+
+*/
+
+
+
+
+
+INSERT into SystemUser values
+('ahmed','ahmed');
+INSERT into System_Admin values
+('ahmed','ahmed');
+
+INSERT INTO SystemUser VALUES
+('hamed','hamed');
+INSERT INTO Sports_Association_Manager VALUES
+('hamed','hamed')
+
+INSERT INTO SystemUser VALUES
+('f','f')
+INSERT INTO FAN (national_id,phone_num,name,address,birthdate,super_id)
+VALUES
+('123',123,'f','f','12/22/2002 5:00 PM','f')
+
+
+
+
+INSERT into Club
+VALUES 
+('zamalek'           ,'cairo'),
+('ahly'              ,'cairo'),
+('barcelona'         ,'barcelona'),
+('real madrid'       ,'madrid'),
+('al nassr'          ,'riyadh'),
+('al hilal'          ,'riyadh'),
+('paris saint german','paris'),
+('bayern munchen'    ,'berlin'),
+('liverpool'         ,'london'),
+('arsenal'           ,'london'),
+('juventus'          ,'turim'),
+('chelsea'           ,'london')
+
+
+
+INSERT into Stadium (name,capacity,location)
+VALUES
+('cairo stadium'     ,1,'cairo'),
+('el salam stadium'  ,1000,'cairo'),
+('camp nou'          ,1000,'barcelona'),
+('stantiago bernabeu',1000,'madrid'),
+('mrsool park'       ,1000,'riyadh'),
+('king fahd '        ,1000,'riyadh'),
+('parc des princes'  ,1000,'paris'),
+('allianz arena'     ,1000,'berlin'),
+('anfield'           ,1000,'london'),
+('emirates stadium'  ,1000,'london'),
+('allianz stadium'   ,1000,'turim'),
+('stamford bridge'   ,1000,'london')
+
+
+
+exec addNewMatch 'ahly' , 'zamalek'            , '1/22/2024 5:00 PM' , '1/22/2024 7:00 PM'
+exec addNewMatch 'ahly' , 'barcelona'          , '2/22/2024 5:00 PM' , '2/22/2024 7:00 PM'
+exec addNewMatch 'ahly' , 'real madrid'        , '3/22/2024 5:00 PM' , '3/22/2024 7:00 PM'
+exec addNewMatch 'ahly' , 'al nassr'           , '4/22/2024 5:00 PM' , '4/22/2024 7:00 PM'
+exec addNewMatch 'ahly' , 'al hilal'           , '5/22/2024 5:00 PM' , '5/22/2024 7:00 PM'
+exec addNewMatch 'ahly' , 'paris saint german' , '6/22/2024 5:00 PM' , '6/22/2024 7:00 PM'
+exec addNewMatch 'ahly' , 'bayern munchen'     , '7/22/2024 5:00 PM' , '7/22/2024 7:00 PM'
+exec addNewMatch 'ahly' , 'liverpool'          , '8/22/2024 5:00 PM' , '8/22/2024 7:00 PM'
+exec addNewMatch 'ahly' , 'juventus'           , '9/22/2024 5:00 PM' , '9/22/2024 7:00 PM'
+exec addNewMatch 'ahly' , 'chelsea'            , '10/22/2024 5:00 PM' , '10/22/2024 7:00 PM'
+exec addNewMatch 'ahly' , 'arsenal'            , '11/22/2024 5:00 PM' , '11/22/2024 7:00 PM'
+
+
+
+exec addNewMatch 'zamalek' , 'ahly'               , '1/23/2024 5:00 PM' , '1/23/2024 7:00 PM'
+exec addNewMatch 'zamalek' , 'barcelona'          , '2/23/2024 5:00 PM' , '2/23/2024 7:00 PM'
+exec addNewMatch 'zamalek' , 'real madrid'        , '3/23/2024 5:00 PM' , '3/23/2024 7:00 PM'
+exec addNewMatch 'zamalek' , 'al nassr'           , '4/23/2024 5:00 PM' , '4/23/2024 7:00 PM'
+exec addNewMatch 'zamalek' , 'al hilal'           , '5/23/2024 5:00 PM' , '5/23/2024 7:00 PM'
+exec addNewMatch 'zamalek' , 'paris saint german' , '6/23/2024 5:00 PM' , '6/23/2024 7:00 PM'
+exec addNewMatch 'zamalek' , 'bayern munchen'     , '7/23/2024 5:00 PM' , '7/23/2024 7:00 PM'
+exec addNewMatch 'zamalek' , 'liverpool'          , '8/23/2024 5:00 PM' , '8/23/2024 7:00 PM'
+exec addNewMatch 'zamalek' , 'juventus'           , '9/23/2024 5:00 PM' , '9/23/2024 7:00 PM'
+exec addNewMatch 'zamalek' , 'chelsea'            , '10/23/2024 5:00 PM' , '10/23/2024 7:00 PM'
+exec addNewMatch 'zamalek' , 'arsenal'            , '11/23/2024 5:00 PM' , '11/23/2024 7:00 PM'
+
+
+
+
+
+
+exec addNewMatch 'barcelona' , 'ahly'               , '1/24/2024 5:00 PM' , '1/24/2024 7:00 PM'
+exec addNewMatch 'barcelona' , 'zamalek'            , '2/24/2024 5:00 PM' , '2/24/2024 7:00 PM'
+exec addNewMatch 'barcelona' , 'real madrid'        , '3/24/2024 5:00 PM' , '3/24/2024 7:00 PM'
+exec addNewMatch 'barcelona' , 'al nassr'           , '4/24/2024 5:00 PM' , '4/24/2024 7:00 PM'
+exec addNewMatch 'barcelona' , 'al hilal'           , '5/24/2024 5:00 PM' , '5/24/2024 7:00 PM'
+exec addNewMatch 'barcelona' , 'paris saint german' , '6/24/2024 5:00 PM' , '6/24/2024 7:00 PM'
+exec addNewMatch 'barcelona' , 'bayern munchen'     , '7/24/2024 5:00 PM' , '7/24/2024 7:00 PM'
+exec addNewMatch 'barcelona' , 'liverpool'          , '8/24/2024 5:00 PM' , '8/24/2024 7:00 PM'
+exec addNewMatch 'barcelona' , 'juventus'           , '9/24/2024 5:00 PM' , '9/24/2024 7:00 PM'
+exec addNewMatch 'barcelona' , 'chelsea'            , '10/24/2024 5:00 PM' , '10/24/2024 7:00 PM'
+exec addNewMatch 'barcelona' , 'arsenal'            , '11/24/2024 5:00 PM' , '11/24/2024 7:00 PM'
+
+
+
+
+
+exec addNewMatch 'real madrid' , 'ahly'               , '1/25/2024 5:00 PM' , '1/25/2024 7:00 PM'
+exec addNewMatch 'real madrid' , 'zamalek'            , '2/25/2024 5:00 PM' , '2/25/2024 7:00 PM'
+exec addNewMatch 'real madrid' , 'barcelona'          , '3/25/2024 5:00 PM' , '3/25/2024 7:00 PM'
+exec addNewMatch 'real madrid' , 'al nassr'           , '4/25/2024 5:00 PM' , '4/25/2024 7:00 PM'
+exec addNewMatch 'real madrid' , 'al hilal'           , '5/25/2024 5:00 PM' , '5/25/2024 7:00 PM'
+exec addNewMatch 'real madrid' , 'paris saint german' , '6/25/2024 5:00 PM' , '6/25/2024 7:00 PM'
+exec addNewMatch 'real madrid' , 'bayern munchen'     , '7/25/2024 5:00 PM' , '7/25/2024 7:00 PM'
+exec addNewMatch 'real madrid' , 'liverpool'          , '8/25/2024 5:00 PM' , '8/25/2024 7:00 PM'
+exec addNewMatch 'real madrid' , 'juventus'           , '9/25/2024 5:00 PM' , '9/25/2024 7:00 PM'
+exec addNewMatch 'real madrid' , 'chelsea'            , '10/25/2024 5:00 PM' , '10/25/2024 7:00 PM'
+exec addNewMatch 'real madrid' , 'arsenal'            , '11/25/2024 5:00 PM' , '11/25/2024 7:00 PM'
+
+
+
+      
+         
+         
+
+   
+       
+          
+         
+           
+
+
+
+exec addRepresentative 'ahly_rep'             , 'ahly'               , 'ahly'               , '123'
+exec addRepresentative 'zamalek_rep'          , 'zamalek'            , 'zamalek'            , '123'
+exec addRepresentative 'barcelona_rep'        , 'barcelona'          , 'barcelona'          , '123'
+exec addRepresentative 'realmadrid_rep'       , 'real madrid'        , 'real madrid'        , '123'
+exec addRepresentative 'alnassr_rep'          , 'al nassr'           , 'al nassr'           , '123'
+exec addRepresentative 'alhilal_rep'          , 'al hilal'           , 'al hilal'           , '123'
+exec addRepresentative 'parissaintgerman_rep' , 'paris saint german' , 'paris saint german' , '123'
+exec addRepresentative 'bayernmunchen_rep'    , 'bayern munchen'     , 'bayern munchen'     , '123'
+exec addRepresentative 'liverpool_rep'        , 'liverpool'          , 'liverpool'          , '123'
+exec addRepresentative 'arsenal_rep'          , 'arsenal'            , 'arsenal'            , '123'
+exec addRepresentative 'juventus_rep'         , 'juventus'           , 'juventus'           , '123'
+exec addRepresentative 'chelsea_rep'          , 'chelsea'            , 'chelsea'            , '123'
+
+
+exec addStadiumManager 'cairostadim_man'       ,  'cairo stadium'      , 'cairo stadium'      , '123'
+exec addStadiumManager 'elsalamstadium_man'    ,  'el salam stadium'   , 'el salam stadium'   , '123'
+exec addStadiumManager 'campnou_man'           ,  'camp nou'           , 'camp nou'           , '123'
+exec addStadiumManager 'stantiagobernabeu_man' ,  'stantiago bernabeu' , 'stantiago bernabeu' , '123'
+exec addStadiumManager 'mrsoolpark_man'        ,  'mrsool park'        , 'mrsool park'        , '123'
+exec addStadiumManager 'kingfahd _man'         ,  'king fahd '         , 'king fahd'          , '123'
+exec addStadiumManager 'parcdesprinces_man'    ,  'parc des princes'   , 'parc des princes'   , '123'
+exec addStadiumManager 'allianzarena_man'      ,  'allianz arena'      , 'allianz arena'      , '123'
+exec addStadiumManager 'anfield_man'           ,  'anfield'            , 'anfield'            , '123'
+exec addStadiumManager 'emiratesstadium_man'   ,  'emirates stadium'   , 'emirates stadium'   , '123'
+exec addStadiumManager 'allianzstadium_man'    ,  'allianz stadium'    , 'allianz stadium'    , '123'
+exec addStadiumManager 'stamfordbridge_man'    ,  'stamford bridge'    , 'stamford bridge'    , '123'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+exec addHostRequest 'ahly' ,  'cairo stadium'      , '1/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'el salam stadium'   , '2/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'camp nou'           , '3/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'stantiago bernabeu' , '4/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'mrsool park'        , '5/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'king fahd '         , '6/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'parc des princes'   , '7/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'allianz arena'      , '8/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'anfield'            , '9/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'emirates stadium'   , '10/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'allianz stadium'    , '11/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'stamford bridge'    , '11/22/2024 5:00 PM'
+
+*/
+
+
+
+-----------------------------------------------------------------------------------------------------
+
+
+
+/*
+exec addHostRequest 'ahly' ,  'cairo stadium' , '1/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'cairo stadium' , '2/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'cairo stadium' , '3/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'cairo stadium' , '4/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'cairo stadium' , '5/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'cairo stadium' , '6/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'cairo stadium' , '7/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'cairo stadium' , '8/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'cairo stadium' , '9/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'cairo stadium' , '10/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'cairo stadium' , '11/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'cairo stadium' , '11/22/2024 5:00 PM'
+
+
+
+
+exec addHostRequest 'ahly' ,  'el salam stadium' , '1/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'el salam stadium' , '2/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'el salam stadium' , '3/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'el salam stadium' , '4/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'el salam stadium' , '5/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'el salam stadium' , '6/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'el salam stadium' , '7/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'el salam stadium' , '8/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'el salam stadium' , '9/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'el salam stadium' , '10/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'el salam stadium' , '11/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'el salam stadium' , '11/22/2024 5:00 PM'
+
+
+
+ 
+exec addHostRequest 'ahly' ,  'camp nou' , '1/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'camp nou' , '2/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'camp nou' , '3/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'camp nou' , '4/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'camp nou' , '5/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'camp nou' , '6/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'camp nou' , '7/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'camp nou' , '8/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'camp nou' , '9/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'camp nou' , '10/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'camp nou' , '11/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'camp nou' , '11/22/2024 5:00 PM'
+
+
+
+
+exec addHostRequest 'ahly' ,  'stantiago bernabeu' , '1/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'stantiago bernabeu' , '2/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'stantiago bernabeu' , '3/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'stantiago bernabeu' , '4/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'stantiago bernabeu' , '5/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'stantiago bernabeu' , '6/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'stantiago bernabeu' , '7/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'stantiago bernabeu' , '8/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'stantiago bernabeu' , '9/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'stantiago bernabeu' , '10/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'stantiago bernabeu' , '11/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'stantiago bernabeu' , '11/22/2024 5:00 PM'
+
+
+
+
+exec addHostRequest 'ahly' ,  'mrsool park' , '1/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'mrsool park' , '2/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'mrsool park' , '3/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'mrsool park' , '4/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'mrsool park' , '5/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'mrsool park' , '6/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'mrsool park' , '7/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'mrsool park' , '8/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'mrsool park' , '9/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'mrsool park' , '10/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'mrsool park' , '11/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'mrsool park' , '11/22/2024 5:00 PM'
+
+
+
+
+
+
+exec addHostRequest 'ahly' ,  'king fahd' , '1/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'king fahd' , '2/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'king fahd' , '3/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'king fahd' , '4/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'king fahd' , '5/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'king fahd' , '6/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'king fahd' , '7/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'king fahd' , '8/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'king fahd' , '9/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'king fahd' , '10/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'king fahd' , '11/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'king fahd' , '11/22/2024 5:00 PM'
+
+
+
+
+
+exec addHostRequest 'ahly' ,  'parc des princes' , '1/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'parc des princes' , '2/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'parc des princes' , '3/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'parc des princes' , '4/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'parc des princes' , '5/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'parc des princes' , '6/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'parc des princes' , '7/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'parc des princes' , '8/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'parc des princes' , '9/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'parc des princes' , '10/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'parc des princes' , '11/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'parc des princes' , '11/22/2024 5:00 PM'
+
+
+
+
+exec addHostRequest 'ahly' ,  'allianz arena' , '1/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'allianz arena' , '2/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'allianz arena' , '3/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'allianz arena' , '4/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'allianz arena' , '5/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'allianz arena' , '6/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'allianz arena' , '7/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'allianz arena' , '8/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'allianz arena' , '9/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'allianz arena' , '10/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'allianz arena' , '11/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'allianz arena' , '11/22/2024 5:00 PM'
+
+
+
+
+
+exec addHostRequest 'ahly' ,  'anfield' , '1/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'anfield' , '2/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'anfield' , '3/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'anfield' , '4/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'anfield' , '5/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'anfield' , '6/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'anfield' , '7/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'anfield' , '8/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'anfield' , '9/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'anfield' , '10/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'anfield' , '11/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'anfield' , '11/22/2024 5:00 PM'
+
+
+
+
+
+
+
+exec addHostRequest 'ahly' ,  'emirates stadium' , '1/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'emirates stadium' , '2/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'emirates stadium' , '3/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'emirates stadium' , '4/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'emirates stadium' , '5/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'emirates stadium' , '6/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'emirates stadium' , '7/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'emirates stadium' , '8/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'emirates stadium' , '9/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'emirates stadium' , '10/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'emirates stadium' , '11/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'emirates stadium' , '11/22/2024 5:00 PM'
+
+
+
+
+
+
+
+exec addHostRequest 'ahly' ,  'allianz stadium' , '1/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'allianz stadium' , '2/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'allianz stadium' , '3/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'allianz stadium' , '4/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'allianz stadium' , '5/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'allianz stadium' , '6/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'allianz stadium' , '7/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'allianz stadium' , '8/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'allianz stadium' , '9/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'allianz stadium' , '10/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'allianz stadium' , '11/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'allianz stadium' , '11/22/2024 5:00 PM'
+
+
+
+
+
+exec addHostRequest 'ahly' ,  'stamford bridge' , '1/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'stamford bridge' , '2/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'stamford bridge' , '3/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'stamford bridge' , '4/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'stamford bridge' , '5/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'stamford bridge' , '6/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'stamford bridge' , '7/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'stamford bridge' , '8/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'stamford bridge' , '9/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'stamford bridge' , '10/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'stamford bridge' , '11/22/2024 5:00 PM'
+exec addHostRequest 'ahly' ,  'stamford bridge' , '11/22/2024 5:00 PM'
+
+
+
+
+
+
+
+
+
+-----------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+exec addHostRequest 'zamalek' ,  'cairo stadium' , '1/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'cairo stadium' , '2/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'cairo stadium' , '3/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'cairo stadium' , '4/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'cairo stadium' , '5/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'cairo stadium' , '6/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'cairo stadium' , '7/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'cairo stadium' , '8/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'cairo stadium' , '9/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'cairo stadium' , '10/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'cairo stadium' , '11/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'cairo stadium' , '11/23/2024 5:00 PM'
+
+
+
+
+exec addHostRequest 'zamalek' ,  'el salam stadium' , '1/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'el salam stadium' , '2/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'el salam stadium' , '3/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'el salam stadium' , '4/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'el salam stadium' , '5/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'el salam stadium' , '6/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'el salam stadium' , '7/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'el salam stadium' , '8/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'el salam stadium' , '9/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'el salam stadium' , '10/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'el salam stadium' , '11/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'el salam stadium' , '11/23/2024 5:00 PM'
+
+
+
+ 
+exec addHostRequest 'zamalek' ,  'camp nou' ,  '1/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'camp nou' ,  '2/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'camp nou' ,  '3/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'camp nou' ,  '4/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'camp nou' ,  '5/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'camp nou' ,  '6/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'camp nou' ,  '7/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'camp nou' ,  '8/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'camp nou' ,  '9/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'camp nou' , '10/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'camp nou' , '11/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'camp nou' , '11/23/2024 5:00 PM'
+
+
+
+
+exec addHostRequest 'zamalek' ,  'stantiago bernabeu' , '1/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'stantiago bernabeu' , '2/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'stantiago bernabeu' , '3/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'stantiago bernabeu' , '4/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'stantiago bernabeu' , '5/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'stantiago bernabeu' , '6/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'stantiago bernabeu' , '7/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'stantiago bernabeu' , '8/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'stantiago bernabeu' , '9/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'stantiago bernabeu' , '10/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'stantiago bernabeu' , '11/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'stantiago bernabeu' , '11/23/2024 5:00 PM'
+
+
+
+
+exec addHostRequest 'zamalek' ,  'mrsool park' , '1/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'mrsool park' , '2/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'mrsool park' , '3/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'mrsool park' , '4/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'mrsool park' , '5/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'mrsool park' , '6/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'mrsool park' , '7/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'mrsool park' , '8/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'mrsool park' , '9/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'mrsool park' , '10/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'mrsool park' , '11/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'mrsool park' , '11/23/2024 5:00 PM'
+
+
+
+
+
+
+exec addHostRequest 'zamalek' ,  'king fahd' , '1/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'king fahd' , '2/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'king fahd' , '3/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'king fahd' , '4/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'king fahd' , '5/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'king fahd' , '6/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'king fahd' , '7/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'king fahd' , '8/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'king fahd' , '9/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'king fahd' , '10/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'king fahd' , '11/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'king fahd' , '11/23/2024 5:00 PM'
+
+
+
+
+
+exec addHostRequest 'zamalek' ,  'parc des princes' , '1/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'parc des princes' , '2/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'parc des princes' , '3/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'parc des princes' , '4/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'parc des princes' , '5/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'parc des princes' , '6/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'parc des princes' , '7/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'parc des princes' , '8/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'parc des princes' , '9/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'parc des princes' , '10/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'parc des princes' , '11/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'parc des princes' , '11/23/2024 5:00 PM'
+
+
+
+
+exec addHostRequest 'zamalek' ,  'allianz arena' , '1/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'allianz arena' , '2/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'allianz arena' , '3/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'allianz arena' , '4/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'allianz arena' , '5/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'allianz arena' , '6/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'allianz arena' , '7/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'allianz arena' , '8/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'allianz arena' , '9/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'allianz arena' , '10/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'allianz arena' , '11/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'allianz arena' , '11/23/2024 5:00 PM'
+
+
+
+
+
+exec addHostRequest 'zamalek' ,  'anfield' , '1/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'anfield' , '2/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'anfield' , '3/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'anfield' , '4/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'anfield' , '5/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'anfield' , '6/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'anfield' , '7/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'anfield' , '8/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'anfield' , '9/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'anfield' , '10/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'anfield' , '11/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'anfield' , '11/23/2024 5:00 PM'
+
+
+
+
+
+
+
+exec addHostRequest 'zamalek' ,  'emirates stadium' , '1/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'emirates stadium' , '2/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'emirates stadium' , '3/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'emirates stadium' , '4/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'emirates stadium' , '5/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'emirates stadium' , '6/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'emirates stadium' , '7/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'emirates stadium' , '8/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'emirates stadium' , '9/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'emirates stadium' , '10/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'emirates stadium' , '11/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'emirates stadium' , '11/23/2024 5:00 PM'
+
+
+
+
+
+
+
+exec addHostRequest 'zamalek' ,  'allianz stadium' , '1/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'allianz stadium' , '2/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'allianz stadium' , '3/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'allianz stadium' , '4/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'allianz stadium' , '5/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'allianz stadium' , '6/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'allianz stadium' , '7/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'allianz stadium' , '8/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'allianz stadium' , '9/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'allianz stadium' , '10/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'allianz stadium' , '11/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'allianz stadium' , '11/23/2024 5:00 PM'
+
+
+
+
+
+exec addHostRequest 'zamalek' ,  'stamford bridge' , '1/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'stamford bridge' , '2/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'stamford bridge' , '3/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'stamford bridge' , '4/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'stamford bridge' , '5/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'stamford bridge' , '6/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'stamford bridge' , '7/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'stamford bridge' , '8/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'stamford bridge' , '9/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'stamford bridge' , '10/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'stamford bridge' , '11/23/2024 5:00 PM'
+exec addHostRequest 'zamalek' ,  'stamford bridge' , '11/23/2024 5:00 PM'
+
+
+
+
+
+
+
+-----------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+exec addHostRequest 'barcelona' ,  'cairo stadium' , '1/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'cairo stadium' , '2/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'cairo stadium' , '3/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'cairo stadium' , '4/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'cairo stadium' , '5/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'cairo stadium' , '6/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'cairo stadium' , '7/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'cairo stadium' , '8/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'cairo stadium' , '9/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'cairo stadium' , '10/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'cairo stadium' , '11/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'cairo stadium' , '11/24/2024 5:00 PM'
+
+
+
+
+exec addHostRequest 'barcelona' ,  'el salam stadium' , '1/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'el salam stadium' , '2/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'el salam stadium' , '3/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'el salam stadium' , '4/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'el salam stadium' , '5/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'el salam stadium' , '6/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'el salam stadium' , '7/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'el salam stadium' , '8/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'el salam stadium' , '9/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'el salam stadium' , '10/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'el salam stadium' , '11/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'el salam stadium' , '11/24/2024 5:00 PM'
+
+
+
+ 
+exec addHostRequest 'barcelona' ,  'camp nou' , '1/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'camp nou' , '2/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'camp nou' , '3/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'camp nou' , '4/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'camp nou' , '5/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'camp nou' , '6/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'camp nou' , '7/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'camp nou' , '8/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'camp nou' , '9/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'camp nou' , '10/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'camp nou' , '11/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'camp nou' , '11/24/2024 5:00 PM'
+
+
+
+
+exec addHostRequest 'barcelona' ,  'stantiago bernabeu' , '1/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'stantiago bernabeu' , '2/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'stantiago bernabeu' , '3/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'stantiago bernabeu' , '4/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'stantiago bernabeu' , '5/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'stantiago bernabeu' , '6/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'stantiago bernabeu' , '7/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'stantiago bernabeu' , '8/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'stantiago bernabeu' , '9/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'stantiago bernabeu' , '10/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'stantiago bernabeu' , '11/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'stantiago bernabeu' , '11/24/2024 5:00 PM'
+
+
+
+
+exec addHostRequest 'barcelona' ,  'mrsool park' , '1/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'mrsool park' , '2/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'mrsool park' , '3/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'mrsool park' , '4/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'mrsool park' , '5/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'mrsool park' , '6/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'mrsool park' , '7/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'mrsool park' , '8/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'mrsool park' , '9/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'mrsool park' , '10/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'mrsool park' , '11/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'mrsool park' , '11/24/2024 5:00 PM'
+
+
+
+
+
+
+exec addHostRequest 'barcelona' ,  'king fahd' , '1/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'king fahd' , '2/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'king fahd' , '3/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'king fahd' , '4/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'king fahd' , '5/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'king fahd' , '6/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'king fahd' , '7/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'king fahd' , '8/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'king fahd' , '9/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'king fahd' , '10/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'king fahd' , '11/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'king fahd' , '11/24/2024 5:00 PM'
+
+
+
+
+
+exec addHostRequest 'barcelona' ,  'parc des princes' , '1/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'parc des princes' , '2/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'parc des princes' , '3/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'parc des princes' , '4/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'parc des princes' , '5/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'parc des princes' , '6/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'parc des princes' , '7/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'parc des princes' , '8/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'parc des princes' , '9/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'parc des princes' , '10/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'parc des princes' , '11/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'parc des princes' , '11/24/2024 5:00 PM'
+
+
+
+
+exec addHostRequest 'barcelona' ,  'allianz arena' , '1/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'allianz arena' , '2/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'allianz arena' , '3/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'allianz arena' , '4/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'allianz arena' , '5/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'allianz arena' , '6/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'allianz arena' , '7/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'allianz arena' , '8/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'allianz arena' , '9/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'allianz arena' , '10/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'allianz arena' , '11/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'allianz arena' , '11/24/2024 5:00 PM'
+
+
+
+
+
+exec addHostRequest 'barcelona' ,  'anfield' , '1/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'anfield' , '2/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'anfield' , '3/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'anfield' , '4/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'anfield' , '5/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'anfield' , '6/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'anfield' , '7/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'anfield' , '8/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'anfield' , '9/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'anfield' , '10/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'anfield' , '11/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'anfield' , '11/24/2024 5:00 PM'
+
+
+
+
+
+
+
+exec addHostRequest 'barcelona' ,  'emirates stadium' , '1/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'emirates stadium' , '2/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'emirates stadium' , '3/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'emirates stadium' , '4/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'emirates stadium' , '5/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'emirates stadium' , '6/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'emirates stadium' , '7/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'emirates stadium' , '8/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'emirates stadium' , '9/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'emirates stadium' , '10/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'emirates stadium' , '11/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'emirates stadium' , '11/24/2024 5:00 PM'
+
+
+
+
+
+
+
+exec addHostRequest 'barcelona' ,  'allianz stadium' , '1/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'allianz stadium' , '2/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'allianz stadium' , '3/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'allianz stadium' , '4/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'allianz stadium' , '5/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'allianz stadium' , '6/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'allianz stadium' , '7/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'allianz stadium' , '8/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'allianz stadium' , '9/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'allianz stadium' , '10/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'allianz stadium' , '11/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'allianz stadium' , '11/24/2024 5:00 PM'
+
+
+
+
+
+exec addHostRequest 'barcelona' ,  'stamford bridge' , '1/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'stamford bridge' , '2/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'stamford bridge' , '3/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'stamford bridge' , '4/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'stamford bridge' , '5/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'stamford bridge' , '6/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'stamford bridge' , '7/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'stamford bridge' , '8/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'stamford bridge' , '9/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'stamford bridge' , '10/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'stamford bridge' , '11/24/2024 5:00 PM'
+exec addHostRequest 'barcelona' ,  'stamford bridge' , '11/24/2024 5:00 PM'
+
+
+
+
+
+
+
+
+
+
+
+-----------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+exec addHostRequest 'real madrid' ,  'cairo stadium' , '1/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'cairo stadium' , '2/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'cairo stadium' , '3/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'cairo stadium' , '4/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'cairo stadium' , '5/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'cairo stadium' , '6/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'cairo stadium' , '7/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'cairo stadium' , '8/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'cairo stadium' , '9/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'cairo stadium' , '10/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'cairo stadium' , '11/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'cairo stadium' , '11/25/2024 5:00 PM'
+
+
+
+
+exec addHostRequest 'real madrid' ,  'el salam stadium' , '1/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'el salam stadium' , '2/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'el salam stadium' , '3/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'el salam stadium' , '4/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'el salam stadium' , '5/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'el salam stadium' , '6/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'el salam stadium' , '7/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'el salam stadium' , '8/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'el salam stadium' , '9/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'el salam stadium' , '10/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'el salam stadium' , '11/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'el salam stadium' , '11/25/2024 5:00 PM'
+
+
+
+ 
+exec addHostRequest 'real madrid' ,  'camp nou' , '1/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'camp nou' , '2/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'camp nou' , '3/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'camp nou' , '4/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'camp nou' , '5/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'camp nou' , '6/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'camp nou' , '7/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'camp nou' , '8/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'camp nou' , '9/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'camp nou' , '10/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'camp nou' , '11/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'camp nou' , '11/25/2024 5:00 PM'
+
+
+
+
+exec addHostRequest 'real madrid' ,  'stantiago bernabeu' , '1/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'stantiago bernabeu' , '2/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'stantiago bernabeu' , '3/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'stantiago bernabeu' , '4/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'stantiago bernabeu' , '5/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'stantiago bernabeu' , '6/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'stantiago bernabeu' , '7/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'stantiago bernabeu' , '8/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'stantiago bernabeu' , '9/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'stantiago bernabeu' , '10/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'stantiago bernabeu' , '11/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'stantiago bernabeu' , '11/25/2024 5:00 PM'
+
+
+
+
+exec addHostRequest 'real madrid' ,  'mrsool park' , '1/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'mrsool park' , '2/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'mrsool park' , '3/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'mrsool park' , '4/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'mrsool park' , '5/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'mrsool park' , '6/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'mrsool park' , '7/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'mrsool park' , '8/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'mrsool park' , '9/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'mrsool park' , '10/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'mrsool park' , '11/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'mrsool park' , '11/25/2024 5:00 PM'
+
+
+
+
+
+
+exec addHostRequest 'real madrid' ,  'king fahd' , '1/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'king fahd' , '2/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'king fahd' , '3/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'king fahd' , '4/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'king fahd' , '5/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'king fahd' , '6/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'king fahd' , '7/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'king fahd' , '8/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'king fahd' , '9/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'king fahd' , '10/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'king fahd' , '11/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'king fahd' , '11/25/2024 5:00 PM'
+
+
+
+
+
+exec addHostRequest 'real madrid' ,  'parc des princes' , '1/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'parc des princes' , '2/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'parc des princes' , '3/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'parc des princes' , '4/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'parc des princes' , '5/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'parc des princes' , '6/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'parc des princes' , '7/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'parc des princes' , '8/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'parc des princes' , '9/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'parc des princes' , '10/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'parc des princes' , '11/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'parc des princes' , '11/25/2024 5:00 PM'
+
+
+
+
+exec addHostRequest 'real madrid' ,  'allianz arena' , '1/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'allianz arena' , '2/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'allianz arena' , '3/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'allianz arena' , '4/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'allianz arena' , '5/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'allianz arena' , '6/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'allianz arena' , '7/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'allianz arena' , '8/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'allianz arena' , '9/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'allianz arena' , '10/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'allianz arena' , '11/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'allianz arena' , '11/25/2024 5:00 PM'
+
+
+
+
+
+exec addHostRequest 'real madrid' ,  'anfield' , '1/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'anfield' , '2/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'anfield' , '3/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'anfield' , '4/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'anfield' , '5/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'anfield' , '6/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'anfield' , '7/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'anfield' , '8/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'anfield' , '9/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'anfield' , '10/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'anfield' , '11/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'anfield' , '11/25/2024 5:00 PM'
+
+
+
+
+
+
+
+exec addHostRequest 'real madrid' ,  'emirates stadium' , '1/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'emirates stadium' , '2/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'emirates stadium' , '3/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'emirates stadium' , '4/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'emirates stadium' , '5/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'emirates stadium' , '6/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'emirates stadium' , '7/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'emirates stadium' , '8/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'emirates stadium' , '9/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'emirates stadium' , '10/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'emirates stadium' , '11/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'emirates stadium' , '11/25/2024 5:00 PM'
+
+
+
+
+
+
+
+exec addHostRequest 'real madrid' ,  'allianz stadium' , '1/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'allianz stadium' , '2/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'allianz stadium' , '3/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'allianz stadium' , '4/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'allianz stadium' , '5/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'allianz stadium' , '6/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'allianz stadium' , '7/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'allianz stadium' , '8/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'allianz stadium' , '9/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'allianz stadium' , '10/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'allianz stadium' , '11/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'allianz stadium' , '11/25/2024 5:00 PM'
+
+
+
+
+
+exec addHostRequest 'real madrid' ,  'stamford bridge' , '1/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'stamford bridge' , '2/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'stamford bridge' , '3/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'stamford bridge' , '4/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'stamford bridge' , '5/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'stamford bridge' , '6/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'stamford bridge' , '7/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'stamford bridge' , '8/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'stamford bridge' , '9/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'stamford bridge' , '10/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'stamford bridge' , '11/25/2024 5:00 PM'
+exec addHostRequest 'real madrid' ,  'stamford bridge' , '11/25/2024 5:00 PM'
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
