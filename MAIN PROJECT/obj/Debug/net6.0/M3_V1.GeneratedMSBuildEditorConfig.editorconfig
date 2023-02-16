@@ -1,0 +1,213 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = M3_V1
+build_property.RootNamespace = M3_V1
+build_property.ProjectDir = /Users/ahmedhamed/dev/projects/databse 1/DATABSE M3 SUBMISSION/
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/ahmedhamed/dev/projects/databse 1/DATABSE M3 SUBMISSION
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/ahmedhamed/dev/projects/databse 1/DATABSE M3 SUBMISSION/Views/ClubRepresentative/displayStadiums.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2x1YlJlcHJlc2VudGF0aXZlL2Rpc3BsYXlTdGFkaXVtcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ahmedhamed/dev/projects/databse 1/DATABSE M3 SUBMISSION/Views/ClubRepresentative/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2x1YlJlcHJlc2VudGF0aXZlL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ahmedhamed/dev/projects/databse 1/DATABSE M3 SUBMISSION/Views/ClubRepresentative/LogIn.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2x1YlJlcHJlc2VudGF0aXZlL0xvZ0luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ahmedhamed/dev/projects/databse 1/DATABSE M3 SUBMISSION/Views/ClubRepresentative/sendRequest.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2x1YlJlcHJlc2VudGF0aXZlL3NlbmRSZXF1ZXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ahmedhamed/dev/projects/databse 1/DATABSE M3 SUBMISSION/Views/ClubRepresentative/ViewAllAvailableStadiums.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2x1YlJlcHJlc2VudGF0aXZlL1ZpZXdBbGxBdmFpbGFibGVTdGFkaXVtcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ahmedhamed/dev/projects/databse 1/DATABSE M3 SUBMISSION/Views/ClubRepresentative/ViewMyClubInfo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2x1YlJlcHJlc2VudGF0aXZlL1ZpZXdNeUNsdWJJbmZvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ahmedhamed/dev/projects/databse 1/DATABSE M3 SUBMISSION/Views/ClubRepresentative/ViewMyClubUpcomingMatches.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2x1YlJlcHJlc2VudGF0aXZlL1ZpZXdNeUNsdWJVcGNvbWluZ01hdGNoZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ahmedhamed/dev/projects/databse 1/DATABSE M3 SUBMISSION/Views/Fan/DisplayMatchesAvailable.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRmFuL0Rpc3BsYXlNYXRjaGVzQXZhaWxhYmxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ahmedhamed/dev/projects/databse 1/DATABSE M3 SUBMISSION/Views/Fan/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRmFuL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ahmedhamed/dev/projects/databse 1/DATABSE M3 SUBMISSION/Views/Fan/LogIn.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRmFuL0xvZ0luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ahmedhamed/dev/projects/databse 1/DATABSE M3 SUBMISSION/Views/Fan/ViewMatchesAvailable.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRmFuL1ZpZXdNYXRjaGVzQXZhaWxhYmxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ahmedhamed/dev/projects/databse 1/DATABSE M3 SUBMISSION/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ahmedhamed/dev/projects/databse 1/DATABSE M3 SUBMISSION/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ahmedhamed/dev/projects/databse 1/DATABSE M3 SUBMISSION/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ahmedhamed/dev/projects/databse 1/DATABSE M3 SUBMISSION/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ahmedhamed/dev/projects/databse 1/DATABSE M3 SUBMISSION/Views/SignUp/ClubRepresentative.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2lnblVwL0NsdWJSZXByZXNlbnRhdGl2ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ahmedhamed/dev/projects/databse 1/DATABSE M3 SUBMISSION/Views/SignUp/Fan.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2lnblVwL0Zhbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ahmedhamed/dev/projects/databse 1/DATABSE M3 SUBMISSION/Views/SignUp/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2lnblVwL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ahmedhamed/dev/projects/databse 1/DATABSE M3 SUBMISSION/Views/SignUp/Pick.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2lnblVwL1BpY2suY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ahmedhamed/dev/projects/databse 1/DATABSE M3 SUBMISSION/Views/SignUp/SportsAssociationManager.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2lnblVwL1Nwb3J0c0Fzc29jaWF0aW9uTWFuYWdlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ahmedhamed/dev/projects/databse 1/DATABSE M3 SUBMISSION/Views/SignUp/StadiumManager.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2lnblVwL1N0YWRpdW1NYW5hZ2VyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ahmedhamed/dev/projects/databse 1/DATABSE M3 SUBMISSION/Views/SignUp/SystemAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2lnblVwL1N5c3RlbUFkbWluLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ahmedhamed/dev/projects/databse 1/DATABSE M3 SUBMISSION/Views/SportsAssociationManager/addMatch.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3BvcnRzQXNzb2NpYXRpb25NYW5hZ2VyL2FkZE1hdGNoLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ahmedhamed/dev/projects/databse 1/DATABSE M3 SUBMISSION/Views/SportsAssociationManager/deleteMatch.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3BvcnRzQXNzb2NpYXRpb25NYW5hZ2VyL2RlbGV0ZU1hdGNoLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ahmedhamed/dev/projects/databse 1/DATABSE M3 SUBMISSION/Views/SportsAssociationManager/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3BvcnRzQXNzb2NpYXRpb25NYW5hZ2VyL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ahmedhamed/dev/projects/databse 1/DATABSE M3 SUBMISSION/Views/SportsAssociationManager/LogIn.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3BvcnRzQXNzb2NpYXRpb25NYW5hZ2VyL0xvZ0luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ahmedhamed/dev/projects/databse 1/DATABSE M3 SUBMISSION/Views/SportsAssociationManager/ViewAllUpcomingMatches.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3BvcnRzQXNzb2NpYXRpb25NYW5hZ2VyL1ZpZXdBbGxVcGNvbWluZ01hdGNoZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ahmedhamed/dev/projects/databse 1/DATABSE M3 SUBMISSION/Views/SportsAssociationManager/ViewPairsofClubsNeverMatched.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3BvcnRzQXNzb2NpYXRpb25NYW5hZ2VyL1ZpZXdQYWlyc29mQ2x1YnNOZXZlck1hdGNoZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ahmedhamed/dev/projects/databse 1/DATABSE M3 SUBMISSION/Views/SportsAssociationManager/ViewPlayedMatches.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3BvcnRzQXNzb2NpYXRpb25NYW5hZ2VyL1ZpZXdQbGF5ZWRNYXRjaGVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ahmedhamed/dev/projects/databse 1/DATABSE M3 SUBMISSION/Views/StadiumManager/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3RhZGl1bU1hbmFnZXIvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ahmedhamed/dev/projects/databse 1/DATABSE M3 SUBMISSION/Views/StadiumManager/LogIn.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3RhZGl1bU1hbmFnZXIvTG9nSW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ahmedhamed/dev/projects/databse 1/DATABSE M3 SUBMISSION/Views/StadiumManager/ViewMyStadiumInfo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3RhZGl1bU1hbmFnZXIvVmlld015U3RhZGl1bUluZm8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ahmedhamed/dev/projects/databse 1/DATABSE M3 SUBMISSION/Views/StadiumManager/ViewPendingRequest.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3RhZGl1bU1hbmFnZXIvVmlld1BlbmRpbmdSZXF1ZXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ahmedhamed/dev/projects/databse 1/DATABSE M3 SUBMISSION/Views/StadiumManager/ViewRequestsReceived.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3RhZGl1bU1hbmFnZXIvVmlld1JlcXVlc3RzUmVjZWl2ZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ahmedhamed/dev/projects/databse 1/DATABSE M3 SUBMISSION/Views/SystemAdmin/addClub.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3lzdGVtQWRtaW4vYWRkQ2x1Yi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ahmedhamed/dev/projects/databse 1/DATABSE M3 SUBMISSION/Views/SystemAdmin/addStadium.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3lzdGVtQWRtaW4vYWRkU3RhZGl1bS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ahmedhamed/dev/projects/databse 1/DATABSE M3 SUBMISSION/Views/SystemAdmin/blockFan.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3lzdGVtQWRtaW4vYmxvY2tGYW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ahmedhamed/dev/projects/databse 1/DATABSE M3 SUBMISSION/Views/SystemAdmin/deleteClub.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3lzdGVtQWRtaW4vZGVsZXRlQ2x1Yi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ahmedhamed/dev/projects/databse 1/DATABSE M3 SUBMISSION/Views/SystemAdmin/deleteStadium.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3lzdGVtQWRtaW4vZGVsZXRlU3RhZGl1bS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ahmedhamed/dev/projects/databse 1/DATABSE M3 SUBMISSION/Views/SystemAdmin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3lzdGVtQWRtaW4vSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ahmedhamed/dev/projects/databse 1/DATABSE M3 SUBMISSION/Views/SystemAdmin/LogIn.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3lzdGVtQWRtaW4vTG9nSW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ahmedhamed/dev/projects/databse 1/DATABSE M3 SUBMISSION/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ahmedhamed/dev/projects/databse 1/DATABSE M3 SUBMISSION/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ahmedhamed/dev/projects/databse 1/DATABSE M3 SUBMISSION/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-85j8uhy87x
+
+[/Users/ahmedhamed/dev/projects/databse 1/DATABSE M3 SUBMISSION/Views/Shared/_LayoutCR.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXRDUi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-83ncg17dpg
+
+[/Users/ahmedhamed/dev/projects/databse 1/DATABSE M3 SUBMISSION/Views/Shared/_LayoutF.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXRGLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-x99f2qn3xt
+
+[/Users/ahmedhamed/dev/projects/databse 1/DATABSE M3 SUBMISSION/Views/Shared/_LayoutSA.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXRTQS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-b8bhgp43b9
+
+[/Users/ahmedhamed/dev/projects/databse 1/DATABSE M3 SUBMISSION/Views/Shared/_LayoutSAM.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXRTQU0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-x36zuce61b
+
+[/Users/ahmedhamed/dev/projects/databse 1/DATABSE M3 SUBMISSION/Views/Shared/_LayoutSM.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXRTTS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-jat7xrxbe4
