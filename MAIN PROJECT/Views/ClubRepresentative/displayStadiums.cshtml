@@ -1,0 +1,63 @@
+﻿@using System.Data
+@model MyModel
+
+
+@{
+    ViewData["Title"] = "displayStadiums";
+    Layout = "_LayoutCR";
+}
+
+<h1>displayStadiums</h1>
+
+
+
+
+
+<table class="table table table-bordered tabletable-striped" style=" width:100%">
+    <thead>
+        <tr>
+
+            <th>
+                Stadium Name
+            </th>
+
+            <th>
+                Location
+            </th>
+
+            <th>
+                Capcity
+            </th>
+
+            <th>
+                
+            </th>
+
+
+        </tr>
+    </thead>
+
+    <tbody @foreach(DataRow row in Model.Data.Rows)
+           {
+      <tr>
+
+          <td width="50%">
+              @row["STADIUM_NAME"]
+          </td>
+
+          <td width="50%">
+              @row["STADIUM_LOCATION"]
+
+          </td>
+
+          <td width="50%">
+              @row["STADIUM_CAPACITY"]
+          </td>
+
+
+          <td>
+              <input type="button" class="btn btn-outline-success" value="send request" onclick="window.location = '@Url.Action("sendRequest1","ClubRepresentative",new { stadiumNAME = (String)@row["STADIUM_NAME"], time =(DateTime) TempData["time"] })';" />
+          </td>
+      </tr>
+      }
+        </tbody>

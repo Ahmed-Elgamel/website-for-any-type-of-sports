@@ -1,0 +1,50 @@
+﻿
+
+@{
+    ViewData["Title"] = "ViewMyStadiumInfo";
+    Layout = "_LayoutSM";
+
+}
+
+<h1>ViewMyStadiumInfo</h1>
+
+
+
+<table class="table table table-bordered tabletable-striped" style=" width:100%">
+    <thead>
+        <tr>
+            <th>
+                Stadium name
+            </th>
+            <th>
+                Stadium location
+            </th>
+
+            <th>
+                Stadium capacity
+            </th>
+        </tr>
+    </thead>
+
+    <tbody
+
+        <tr>
+
+            <td width="50%">
+                @ViewBag.StadiumName
+            </td>
+
+            <td width="50%">
+                @ViewBag.StadiumLocation
+
+            </td>
+            <td width="50%">
+                @ViewBag.stadiumCapcity
+
+            </td>
+
+
+    </tr>
+
+        </tbody>
+
